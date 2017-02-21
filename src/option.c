@@ -2775,7 +2775,7 @@ void read_opts(int argc, char **argv, char *compile_opts)
   /* Set defaults - everything else is zero or NULL */
   daemon->cachesize = CACHESIZ;
   daemon->ftabsize = FTABSIZ;
-  daemon->port = NAMESERVER_PORT;
+  daemon->port = 5353;
   daemon->dhcp_client_port = DHCP_CLIENT_PORT;
   daemon->dhcp_server_port = DHCP_SERVER_PORT;
   daemon->default_resolv.is_default = 1;
